@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Comprar cartão unitário</title>
+</head>
+
+<body class="bg-dark">
+    <main class="d-flex justify-content-around align-items-center vh-100" id="conteiner">
+        <div class="card border-primary" style= "border-width: 2px">
+            <img class="card-img  w-50 mx-auto py-2" src="img/img_metro.jpg" alt="Imagem de capa do card">
+            <div class="card-body text-center">
+              <h3 class="card-title mb-4"><u>Cartão unitário</u></h3>
+              <p class="card-text h5 mb-3">aqui você pode comprar seu cartão unitário</p>
+              <div class="d-flex justify-content-around mb-4" id="botoes">
+                <button class="btn btn-dark btn-sm" id="btn_menos">-</button>
+                <h3 class="texto-cartao"><span id="numeros-cartoes">1</span> <span id="texto-cartao">Cartão</span></h3>
+                <button class="btn btn-dark btn-sm" id="btn_mais">+</button>
+              </div>
+              <h4 class="mb-3">Valor da passagem <strong>R$: <span id="valor-passagens">6.50</span></strong></h4>
+              <button class="btn btn-primary btn-lg d-block mx-auto my-4" id="btn-comprar" onclick="proximaPagina()">Comprar</button>
+            </div>
+        </div>  
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
