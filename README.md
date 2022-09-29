@@ -8,4 +8,4 @@ Se o valor inserido for menor que o valor total " vai aparecer um alerta que o v
 
 Se o valor inserido for maior que o valor total , o usuário terá direito a troco "vai aparecer um alerta para aguardar o troco, e no campo a baixo vai aparecer o seu troco, e depois de 5seg vai ser redirecionado a pagina principal de compra"
 
-site 👉 do projeto: 
+site 👉 do projeto: https://ricardolisboa17.github.io/projeto_cartao_metro/
